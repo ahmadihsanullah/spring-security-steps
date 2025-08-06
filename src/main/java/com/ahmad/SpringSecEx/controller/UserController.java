@@ -36,7 +36,7 @@ public class UserController {
         return userService.verify(user);
     }
 
-    @GetMapping("/hello")
+    @GetMapping("hello")
     public String hello() {
         return "hello world";
     }
